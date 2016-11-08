@@ -19,5 +19,5 @@ array([[ 128.60112   ,  127.5030365 ],
 the list inside [ 128.6,127.5 ] [121,2,122,3] does not like t+1 and t+2.  
 **Instead,** It looks like 2 probaly prediction for 1 unit. 
 What i means is  [128.6,127.5] doesn't mean t+1 and t+2 prediction, it most possibly mean 2 possible prediction for t+1.
-
+one output cell with 2dimension and 2 output cell with 1 dimension is different.
 The input dimension and the output dimension will be tricky for the NN. 
