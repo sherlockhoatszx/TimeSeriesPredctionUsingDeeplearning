@@ -24,3 +24,4 @@ What i means is  [128.6,127.5] doesn't mean t+1 and t+2 prediction, it most poss
 The input dimension and the output dimension will be tricky for the NN. 
 
 It seems i should redisgn a new neurons network.seq2seq ? distributedtime wraper were the tools on hand right now.
+What your suggestion ? You can launch new issue and we discuss about it.
