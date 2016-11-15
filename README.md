@@ -3,7 +3,7 @@ Try to make Time Series Prediction with simple neurons network supported by Kera
 
 Thanks to a wonderful tutorial published by [machinlearningmaster](http://machinelearningmastery.com/time-series-prediction-with-deep-learning-in-python-with-keras/),The code I published was mainly copied from that. 
 
-In that tutorial, the prediction time lenght is 1 time unit.The dataframe like this (Xt-2,Xt-1,Xt,Yt+1),Yt+i is for prediction.For expample , i use the passed 4days data to predict the 5th day.
+In that tutorial, the prediction time lenght is 1 time unit.The dataframe like this (Xt-2,Xt-1,Xt,Yt+1),Yt+1 is for prediction.For expample , i use the passed 4days data to predict the 5th day.
 
 What I try to explore is that,I want to use the passed 4days data to predict the next 2 days'. 
 
