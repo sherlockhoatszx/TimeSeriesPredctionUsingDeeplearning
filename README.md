@@ -26,4 +26,4 @@ The input dimension and the output dimension will be tricky for the NN.
 It seems i should redisgn a new neurons network.seq2seq ? distributedtime wraper were the tools on hand right now.
 What your suggestion ? You can launch new issue and we discuss about it.
 
-11.15 update : Solution: Using keras time-distributed-Dense neurons structure, It performs acceptable to predict within 5 days. After 5days , the longer to predict, the lower accuracy.
+**11.15 update Solution**: Using keras time-distributed-Dense neurons structure, It performs acceptably to predict within 5 days. After 5days , the longer to predict, the lower accuracy.
