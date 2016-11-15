@@ -26,6 +26,6 @@ The input dimension and the output dimension will be tricky for the NN.
 It seems i should redisgn a new neurons network.seq2seq ? distributedtime wraper were the tools on hand right now.
 What your suggestion ? You can launch new issue and we discuss about it.
 
-**11.15 update Solution**: Using keras time-distributed-Dense neurons structure, It performs acceptably to predict within 5 days. After 5days , the longer to predict, the lower accuracy. (CStimeSeries_TimeDistributed-step1shift24_LSTM-1115.ipynb)
+**11.15 update Solution**:I figured out how to implement the N time unit prediction, and mostly dropped that former code. Using keras time-distributed-Dense neurons structure, It performs acceptably to predict within 5 days. After 5days , the longer to predict, the lower accuracy. (CStimeSeries_TimeDistributed-step1shift24_LSTM-1115.ipynb)
 
 An explicity explanation for the Timedistributed Dense is [here] (https://github.com/fchollet/keras/issues/1029)
